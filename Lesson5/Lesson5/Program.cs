@@ -1,8 +1,6 @@
 ﻿namespace Lesson5
 {
     using System;
-    using System.Numerics;
-
     class Program
     {
         static void Main(string[] args)

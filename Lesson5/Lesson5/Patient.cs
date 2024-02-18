@@ -1,6 +1,5 @@
 ﻿namespace Lesson5
 {
-    using System;
     class Patient
     {
         public string Name { get; set; }
