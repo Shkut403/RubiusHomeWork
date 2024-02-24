@@ -29,7 +29,7 @@
                 throw new InvalidOperationException("Stack is empty");
             }
 
-            return items[items.Count - 1];
+            return items[^1];
         }
 
         public bool IsEmpty()

@@ -5,7 +5,6 @@
     {
         static void Main(string[] args)
         {
-            // Создание и использование Stack<int>
             Stack<int> intStack = new Stack<int>();
             intStack.Push(1);
             intStack.Push(2);
@@ -13,7 +12,6 @@
             Console.WriteLine($"Удален элемент из intStack: {intStack.Pop()}");
             Console.WriteLine($"Стек intStack пуст? {intStack.IsEmpty()}");
 
-            // Создание и использование Stack<string>
             Stack<string> stringStack = new Stack<string>();
             stringStack.Push("Hello");
             stringStack.Push("World");
@@ -21,7 +19,6 @@
             stringStack.Clear();
             Console.WriteLine($"Стек stringStack пуст? {stringStack.IsEmpty()}");
 
-            // Создание и использование Stack<double>
             Stack<double> doubleStack = new Stack<double>();
             doubleStack.Push(1.1);
             doubleStack.Push(2.2);
